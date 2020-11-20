@@ -96,10 +96,10 @@ export default {
     initialize() {},
 
     async hendleLogin() {
+      this.$router.push("/dashboard");
       this.laoding = true;
       await this.login({ email: this.email, password: this.password });
       if (!this.errorPass) {
-        this.$router.push("/dashboard");
         this.laoding = false;
       } else {
         this.snackbar = true;

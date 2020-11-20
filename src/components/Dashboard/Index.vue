@@ -34,7 +34,7 @@
 <script>
 import Dashboard from './Dashboard';
 import {
-  mdiCalendarMonth,
+  mdiViewDashboard,
 } from "@mdi/js";
 
 export default {
@@ -46,7 +46,7 @@ export default {
     return {
       tab: null,
       items: [
-        { title: "Agenda completa", component: Dashboard, icon: mdiCalendarMonth }
+        { title: "Dashboard", component: Dashboard, icon: mdiViewDashboard }
       ]
     };
   }
