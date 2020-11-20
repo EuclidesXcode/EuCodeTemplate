@@ -1,34 +1,27 @@
 <template>
+  <v-row>
+    <p>Dashboard</p>
+  </v-row>
 </template>
 <script>
 import { mapActions, mapGetters } from "vuex";
 
 export default {
-  data: () => ({
-
-  }),
+  data: () => ({}),
 
   computed: {
-    ...mapGetters({
-
-    }),
+    ...mapGetters({}),
   },
 
-  mounted() {
-
-  },
+  mounted() {},
 
   async created() {
     await this.initialize();
   },
 
   methods: {
-    ...mapActions({
-
-    }),
-    async initialize() {
-
-    },
+    ...mapActions({}),
+    async initialize() {},
   },
 };
 </script>

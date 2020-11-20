@@ -58,13 +58,7 @@
 <style scoped>
 .card-login {
   align-self: center;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    180deg,
-    rgb(248, 227, 226) 0%,
-    rgb(255, 255, 255) 48%,
-    rgba(211, 242, 234) 100%
-  );
+  background-color: #c2c2c2;
 }
 .container-login {
   justify-content: center;
@@ -72,13 +66,7 @@
   flex: 1;
   height: 100%;
   width: 100%;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    180deg,
-    rgb(248, 227, 226) 0%,
-    rgb(255, 255, 255) 48%,
-    rgba(211, 242, 234) 100%
-  );
+  background-color: #c2c2c2;
 }
 </style>
 
