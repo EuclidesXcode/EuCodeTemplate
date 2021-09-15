@@ -5,7 +5,7 @@
         <v-list-item two-line class="miniVariant && 'px-0'">
           <v-list-item-avatar>
             <img
-              src='https://google.com/google.png'
+              src='https://google.com/logo/google.png'
             />
           </v-list-item-avatar>
 
@@ -75,6 +75,8 @@ export default {
     timestamp: '',
     items: [
       { title: "Dashboard", icon: mdiViewDashboard, link: "/dashboard" },
+      { title: "Produtos", icon: mdiViewDashboard, link: "/product" },
+      { title: "Clientes", icon: mdiViewDashboard, link: "/client" },
     ],
     drawer: null,
     ChangeTheme: false,
@@ -90,7 +92,7 @@ export default {
   methods: {
    setTime: function() {
     const today = new Date();
-    const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    const date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
     const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
     const dateTime = date +' '+ time;
     this.timestamp = dateTime;
